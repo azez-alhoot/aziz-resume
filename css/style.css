@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300;400;500&family=Viaoda+Libre&display=swap');
+
+*{
+    font-family: 'Comfortaa', cursive;
+}
+/* @media only screen and (min-width: 992px) {...}  */
+
+
+@media only screen and (max-width: 600px) 
+  {
+      /* The header part */
+    header {
+        width: 100%;
+        background-color:#051A27;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    header h1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        padding: 15px 0;
+    }
+
+    /* The personal photo*/
+    .personal-photot {
+        width: 100%;
+        height: 400px;
+        background-color: lightsteelblue;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .personal-photot img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 2px 1px rgba(131, 134, 134, 0.924);
+        display: block;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+     /* the intro part */
+    .message {
+        width: 100%;
+        height: 200px;
+        background-color: #051A27;
+        color: white;
+    }
+    
+    .message h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .message p {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: justify;
+        padding: 5px;
+    }
+    /* Container to hold all the content inside the body */
+    .container {
+        width: 100%;
+        height: fit-content;
+        background-color: lightsteelblue;
+    }
+
+    /*  */
+    .btn-show button {
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        background-color: #051A27;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border: 1px solid white;
+    }
+
+    /* The skills part */
+    .skills {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .lang-tools {
+        width: 100%;
+        display: block;
+        /* background-color:lightslategrey; */
+        margin-top: 50px;
+    }
+
+    .lang-header {
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .skills-images {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .skills-images img {
+        width: 200px;
+        height: 120px;
+        margin: 5px;
+    }
+
+    /* Education part */
+    .education {
+        width: 100%;
+        background-color: lightsteelblue;
+        color: black;
+    }
+
+    .edu-one, .edu-two {
+        border: 2px solid white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .edu-one h3, .edu-two h3 {
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .degree, .location, .date {
+        padding-left: 10px;
+        padding: 10px;
+    }
+}
